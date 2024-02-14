@@ -1,7 +1,7 @@
 import Image from "next/image";
 import {Logo} from "../../components/Logo"
 import {Links} from "../../components/Links"
-import {NLogo} from "../../components/NLogo"
+import {Headline} from "../../components/Headline"
 
 export default function Home() {
   return (
@@ -13,7 +13,7 @@ export default function Home() {
         </p>
         <Logo />
       </div>
-      <NLogo />
+      <Headline title="title page" page="page"/>
       <Links />
     </main>
   );
